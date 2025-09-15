@@ -13,14 +13,14 @@ public class DistanceCalc
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
-// signature
+    // signature
         System.out.print("Michael Xendzov\nAPCS-A\n2.8 Distance Formula Program\n\n");
 // prompt the user for number of runs
                 System.out.print("Enter the number of runs: ");
         int NumRuns = sc.nextInt();
         sc.nextLine();
 // set delimiter which splits on commas, parentheses, and spaces
-        sc.useDelimiter("[(),\\s]+");
+        sc.useDelimiter("[\\(\\)\\,\\s\\n]+");
 // loop for the number of runs
         for (int i = 1; i <= NumRuns; i++)
         {
