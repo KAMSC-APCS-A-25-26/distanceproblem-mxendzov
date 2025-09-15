@@ -8,7 +8,7 @@
 // PEOPLE I HELPED : Conner Chan, Adam Sagin, Shuler Wiegerink
 // PEOPLE WHO HELPED ME : Conner Chan, Adam Sagin, Shuler Wiegerink
 import java.util.Scanner;
-public class DistanceCalc
+public class DistanceMultiple
 {
     public static void main(String[] args)
     {
