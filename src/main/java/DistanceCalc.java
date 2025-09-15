@@ -20,7 +20,7 @@ public class DistanceCalc
         int NumRuns = sc.nextInt();
         sc.nextLine();
 // set delimiter which splits on commas, parentheses, and spaces
-        sc.useDelimiter("[\\(\\)\\,\\s\\n]+");
+        sc.useDelimiter("[\\(\\)\\,\\s]+");
 // loop for the number of runs
         for (int i = 1; i <= NumRuns; i++)
         {
